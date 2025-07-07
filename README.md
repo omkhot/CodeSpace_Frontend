@@ -68,11 +68,15 @@ CodeSpace offers a modern and minimal interface with a smooth user flow:
 CodeSpace_Frontend/
 ├── public/                # Static assets
 ├── src/
-│   ├── components/        # Reusable UI components (Editor, Navbar, etc.)
+│   ├── assets/            # Images, icons, and videos
+|   ├── Atoms/             # Small reusable UI components
+|   ├── Molecules/         # Medium reusable UI components
+|   ├── Organs/            # Large reusable UI components
 │   ├── pages/             # Route-level pages (Home, Login, Editor)
 │   ├── contexts/          # Global state using React Context API
-│   ├── services/          # Axios API configs
+│   ├── Axios/             # Axios API configs
 │   ├── hooks/             # Custom React hooks
+|   ├── reducers/          # Reducer functions
 │   ├── utils/             # Utility/helper functions
 │   ├── App.jsx            # App-level routing & layout
 │   └── main.jsx           # React entry point
@@ -85,17 +89,17 @@ CodeSpace_Frontend/
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Guest Page](./ScreenShots/home1.png)
+![Guest Page](./SreenShots/home1.png)
 
 ### 🏠 Home Feed
-![Home Page](./ScreenShots/explainCode.png)
-![Home Page](./ScreenShots/lightTheme.jpg)
+![Home Page](./SreenShots/explainCode.png)
+![Home Page](./SreenShots/lightTheme.png)
 
 ### 👤 Profile
-![Profile](./ScreenShots/profileTab.png)
+![Profile](./SreenShots/profileTab.png)
 
 ### Chats
-![Chats](./ScreenShots/chatHistory.png)
+![Chats](./SreenShots/chatHistory.png)
 
 ### Editor Settings
 ![Editor Settings](./SreenShots/EditorSettings.png)
