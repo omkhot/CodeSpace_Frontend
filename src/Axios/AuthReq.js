@@ -2,7 +2,8 @@ import axiosInstance from "./AxiosSetup";
 
 export const GoogleSignIn = async() => {
     // Redirect the browser to start the OAuth flow
-    window.location.href = 'http://localhost:5300/auth/google';      
+    const backendURL = import.meta.env.VITE_Backend_URL
+    window.location.href = `${backendURL}/auth/google`;      
 }
 
 export const ValidateUser = async() =>{
